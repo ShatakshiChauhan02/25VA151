@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile Card - Flexbox Layout</title>
+
+    <style>
+        body {
+            font-family: Poppins, Arial, sans-serif;
+            background: linear-gradient(135deg, #dce3f5, #ffffff);
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center; 
+            align-items: center;     
+            flex-direction: row;     
+        }
+
+        .card {
+            background: #ffffff;
+            width: 350px;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+        }
+
+        .card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #4a6cf7;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            margin: 10px 0;
+            color: #222;
+        }
+
+        p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .details {
+            display: flex;
+            flex-direction: column; 
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        .tag {
+            background: #4a6cf7;
+            padding: 8px 16px;
+            border-radius: 20px;
+            color: white;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <img src="Shatakshi.jpg" alt="Student Photo">
+            <h2>Shatakshi Chauhan</h2>
+            <p>B.Tech CSE (AIML)</p>
+            <p>1st Year Student</p>
+
+            <div class="details">
+                <p><strong>Admission No:</strong> 2025B15310011</p>
+                <p><strong>Email:</strong>shatakshichauhanabes28@gmail.com</p>
+                <p><strong>Skills:</strong> HTML , JAVA , C , C++</p>
+                <div class="tag">Active Learner</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
