@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance CSS</title>
+    
+    <style>
+        html,*{
+            margin: 0;
+            padding: 0;
+          box-sizing:border-box ;
+        }
+        body{
+        /* background-image: linear-gradient(to top,red 20% , green 10%, yellow, white) ; */
+         /*background-image: linear-gradient(90deg,red 20% , green 10%, yellow, white) ;*/
+         /*background-image: radial-gradient(white 10%,blue, green);*/
+         background-image: conic-gradient(red 60deg,yellow,green 90deg,blue,red) ;
+        }
+        div{
+            width: 500px;
+            height: 500px;
+           /* background-color: darkred; */
+            overflow: auto;
+            border: 10px solid #3412cf;
+            padding: 20px;
+             /* opacity: .5; */
+        }
+        p{
+            /*border:10px dashed #CCC; */
+            /* border: inherit; */
+            margin: 10px;
+            border: 10px solid transparent;
+            border-image: url(border.png) 50 round;
+        }
+        a:hover{
+            cursor: move;
+        }
+    </style>
+</head>
+<body>
+    <i class=""> </i>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis impedit eaque nobis quisquam explicabo hic. Earum placeat iusto perspiciatis nisi cum consectetur, ullam unde quas maiores illo. Vitae, eligendi cupiditate?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis impedit eaque nobis quisquam explicabo hic. Earum placeat iusto perspiciatis nisi cum consectetur, ullam unde quas maiores illo. Vitae, eligendi cupiditate?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis impedit eaque nobis quisquam explicabo hic. Earum placeat iusto perspiciatis nisi cum consectetur, ullam unde quas maiores illo. Vitae, eligendi cupiditate?
+        </p>
+    </div>
+</body>
+</html>
