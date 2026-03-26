@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Student Profile Cards</title>
+
+    <style>
+        body {
+            font-family: Poppins, Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            margin: 0;
+            padding: 40px;
+        }
+
+        
+        h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+            letter-spacing: 1px;
+        }
+
+     
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        
+        .card {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            width: 320px;
+            padding: 25px;
+            border-radius: 20px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            transition: 0.4s ease;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+        }
+
+        .card img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            margin: 10px 0;
+        }
+
+        p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        
+        .details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        .details p {
+            font-size: 13px;
+        }
+
+        
+        .tag {
+            padding: 8px 18px;
+            border-radius: 30px;
+            margin-top: 12px;
+            font-size: 13px;
+            font-weight: bold;
+            background: linear-gradient(to right, #ff9966, #ff5e62);
+            color: white;
+            transition: 0.3s;
+        }
+
+        .tag:hover {
+            transform: scale(1.1);
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1> Student Profile Cards </h1>
+
+    <div class="container">
+
+        <div class="card">
+            <img src="" alt="Student">
+            <h2>Shatakshi Chauhan</h2>
+            <p>B.Tech CSE (AIML)</p>
+            <p>1st Year Student</p>
+
+            <div class="details">
+                <p><strong>Admission No:</strong> 2503215300180</p>
+                <p><strong>Email:</strong> shatakshichauhanabes28@gmail.com</p>
+                <p><strong>Skills:</strong> HTML, JAVA, C, C++</p>
+                <div class="tag">Active Learner</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="" alt="Student">
+            <h2>Shaurya Pratap Singh</h2>
+            <p>B.Tech CSE(Core)</p>
+            <p>1st Year Student</p>
+
+            <div class="details">
+                <p><strong>Admission No:</strong> 2503215300181</p>
+                <p><strong>Email:</strong> shauryapratap@gmail.com</p>
+                <p><strong>Skills:</strong> Python, SQL, Web Dev</p>
+                <div class="tag">Tech Enthusiast</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="" alt="Student">
+            <h2>Shawsti Singh</h2>
+            <p>B.Tech CSE(DS)</p>
+            <p>1st Year Student</p>
+
+            <div class="details">
+                <p><strong>Admission No:</strong> 2503215300182</p>
+                <p><strong>Email:</strong> shawstisingh@gmail.com</p>
+                <p><strong>Skills:</strong> Data Science, ML</p>
+                <div class="tag">Creative Thinker</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="" alt="Student">
+            <h2>Shivam Sharma</h2>
+            <p>B.Tech CSE(AIML)</p>
+            <p>1st Year Student</p>
+
+            <div class="details">
+                <p><strong>Admission No:</strong> 2503215300183</p>
+                <p><strong>Email:</strong> shivamsharma@gmail.com</p>
+                <p><strong>Skills:</strong> C++, DSA, React</p>
+                <div class="tag">Problem Solver</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
